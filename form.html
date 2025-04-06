@@ -8,29 +8,35 @@
 </head>
 
 <body>
-    <section border="1">
-        <h1>Formulário detalhado de tarefas</h1>
+    <section border="1" style="background-color: rgb(206, 196, 196); border-radius: 5px; position: fixed;">
+        <h1 style="margin-left: 70px;">Formulário detalhado de tarefas</h1>
 
         <form style="line-height: 40px; position: relative;">
-            <span>TAREFA I: </span>
-            <lable><input type="text"></lable><br>
+            <label><span style="padding:5px;">Nome: </span>
+                <input type="name" placeholder="Seu nome"></label>
 
-            <lable><span>Descrição da tarefa: </span>
-                <input>
-            </lable><br>
+            <label style="padding: 20px;"><span>Email:</span>
+                <input type="email" placeholder="seu Email"></label><hr>
+            
+            <label for="" style="padding:5px;"><span>TAREFA I: </span>
+                <input type="text" placeholder="Nome da tarefa"></label><br>
+
+            <label style="padding:5px;">Descrição da tarefa <br>
+                <textarea></textarea></label><br>
 
 
-            <lable><span>Data de entrega: </span>
-                <input type="date">
-            </lable><br>
+            <label><span style="padding:5px;">Data de entrega: </span>
+                <input type="date" placeholder="descrição do que precisou ser desenvolvido"></label><br>
 
-            <lable><span>Prazo para conclusão: </span>
-                <input type="datetime-local">
-            </lable><br>
+            <label><span style="padding:5px;">Prazo para conclusão: </span>
+                <input type="datetime-local"></label><hr>
 
-            <lable><span>Dificuldade: </span>
-                <input type="range">
-            </lable><br>
+            <label><span style="padding:5px;">Dificuldade: </span>
+                <input type="range"></label><br>
+
+            <label style="padding:230px;"><input type="submit" ></label>
+
+            <label></label>
         </form>
     </section>
 </body>
